@@ -16,7 +16,7 @@ def generate_launch_description():
     
     # Paths
     urdf_path = os.path.join(pkg_my_robot_description, 'urdf', 'my_robot.urdf.xacro')
-    world_path = os.path.join(pkg_my_robot_bringup, 'worlds', 'bot_world.sdf')
+    world_path = os.path.join(pkg_my_robot_bringup, 'worlds', 'obstacle_world.sdf')
     gazebo_config_path = os.path.join(pkg_my_robot_bringup, 'config', 'gazebo_bridge.yaml')
     
     # Robot State Publisher
