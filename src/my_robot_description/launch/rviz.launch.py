@@ -16,7 +16,7 @@ def generate_launch_description():
     rviz_config_path = os.path.join(
         get_package_share_directory('my_robot_description'),
         'rviz',
-        'urdf_config.rviz'
+        'lidar_config.rviz'
     )
 
     robot_state_publisher_node = Node(
